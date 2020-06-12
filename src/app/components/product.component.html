@@ -1,4 +1,4 @@
-<h1>{{product.title | uppercase}}</h1>
+<h1 appSobresalir>{{product.title | uppercase}}</h1>
 <img [src]="product.image" alt="">
 <strong> {{product.price | currency}} </strong>
 <p>{{ product.description | slice:0:10 }}</p>
