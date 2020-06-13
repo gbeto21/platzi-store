@@ -1,4 +1,5 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
+
 import Swiper from 'swiper';
 
 @Component({
@@ -12,12 +13,11 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
   ngAfterViewInit() {
-    //Called after ngAfterContentInit when the component's view has been initialized. Applies to components only.
-    //Add 'implements AfterViewInit' to the class.
-    this.mySwiper = new Swiper('.swiper-container')
+    this.mySwiper = new Swiper('.swiper-container');
   }
+
 }
