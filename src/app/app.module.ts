@@ -15,7 +15,6 @@ import { FooterComponent } from './footer/footer.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { LayoutComponent } from './layout/layout.component'
-import { HomeModule } from './home/home.module'
 
 @NgModule({
   declarations: [
@@ -28,7 +27,6 @@ import { HomeModule } from './home/home.module'
     ContactComponent,
     DemoComponent,
     HeaderComponent,
-    HomeModule,
     FooterComponent,
     PageNotFoundComponent,
     ProductDetailComponent,
