@@ -6,6 +6,7 @@ import { ExponentialPipe } from './pipes/exponential/exponential.pipe';
 import { HighlightDirective } from './directives/highlight/highlight.directive';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CartComponent } from './components/cart/cart.component';
 
 import { MaterialModule} from './../material/material.module'
 import { MatIconModule } from '@angular/material/icon'
@@ -15,7 +16,8 @@ import { MatIconModule } from '@angular/material/icon'
     ExponentialPipe,
     HighlightDirective,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CartComponent
   ],
   exports: [
     ExponentialPipe,
