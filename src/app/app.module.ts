@@ -6,7 +6,11 @@ import { AppComponent } from './app.component';
 import {ProductComponent} from './components/product.component';
 import { CartComponent } from './cart/cart.component';
 import { ExponentialPipe } from './exponential.pipe';
-import { SobresalirDirective } from './sobresalir.directive'
+import { SobresalirDirective } from './sobresalir.directive';
+import { HomeComponent } from './home/home.component';
+import { ProductsComponent } from './products/products.component';
+import { ContactComponent } from './contact/contact.component';
+import { DemoComponent } from './demo/demo.component'
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { SobresalirDirective } from './sobresalir.directive'
     ProductComponent,
     CartComponent,
     ExponentialPipe,
-    SobresalirDirective
+    SobresalirDirective,
+    HomeComponent,
+    ProductsComponent,
+    ContactComponent,
+    DemoComponent
   ],
   imports: [
     BrowserModule,
