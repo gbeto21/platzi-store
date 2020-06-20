@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule} from '@angular/forms'
 
+import { QuicklinkModule } from "ngx-quicklink";
+
 import { ExponentialPipe } from './pipes/exponential/exponential.pipe';
 import { HighlightDirective } from './directives/highlight/highlight.directive';
 import { HeaderComponent } from './components/header/header.component';
@@ -31,7 +33,8 @@ import { MatIconModule } from '@angular/material/icon'
     RouterModule,
     MaterialModule,
     MatIconModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    QuicklinkModule
   ]
 })
 export class SharedModule { }
